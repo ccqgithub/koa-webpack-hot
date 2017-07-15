@@ -1,0 +1,22 @@
+{
+  "name": "koa-webpack-hot",
+  "version": "1.0.0",
+  "description": "webpack hot middleware in koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccqgithub/koa-webpack-hot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccqgithub/koa-webpack-hot/issues"
+  },
+  "homepage": "https://github.com/ccqgithub/koa-webpack-hot#readme",
+  "dependencies": {
+    "webpack-hot-middleware": "^2.18.2"
+  }
+}
