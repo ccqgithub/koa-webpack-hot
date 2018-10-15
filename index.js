@@ -22,6 +22,9 @@ module.exports = (compiler, opts) => {
         Object.keys(headers).forEach(key => {
           ctx.set(key, headers[key])
         })
+      },
+      end: () => {
+        stream.end();
       }
     }, next)
   }
